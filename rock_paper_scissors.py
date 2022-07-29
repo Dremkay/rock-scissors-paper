@@ -10,10 +10,9 @@ computer_points = 0
 ties = 0
 
 play =True
-rules = '''
-    Rock beats Scissors
-    Scissors beats Paper
-    Paper beats Rock
+rules = '''Rock beats Scissors
+Scissors beats Paper
+Paper beats Rock
 '''
 print("Welcome to Rock Scissors and Paper")
 print("Here are the rules:")
@@ -47,8 +46,9 @@ while play:
         break
     else:
         print(f"Player chose {player_input} and computer chose {computer_input}")
-        print(f"{computer_input} beats {player_input}, Computer Wins!")
+        print(f"{computer_input.title()} beats {player_input.title()}, Computer Wins!")
         computer_points+=1
+
 
 
     
