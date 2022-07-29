@@ -4,7 +4,7 @@ import random
 # Scissors beats Paper
 # Paper beats Rock
 
-options = ['scissors','rock','paper',]
+options = ['scissors','rock','paper']
 player_points = 0
 computer_points = 0
 ties = 0
@@ -47,7 +47,7 @@ while play:
         elif player_input == computer_input:
             print(f"Player chose {player_input} and computer chose {computer_input}\n")
             print("it's a tie!\n")
-            ties+=1
+            ties+= 1
         
         else:
             print(f"Player chose {player_input} and computer chose {computer_input}\n")
